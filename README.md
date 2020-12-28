@@ -10,7 +10,13 @@ more examples can be found in the notebook (EDSR-DQE) while the regular EDSR can
 fed to the model using TF Dataset Generator. The number of trainable parameters was about 6M parameters.
 
 For the Colorization part, a deep CNN was used with about 24M trainable parameters with the last layer predicting the AB channels of the LAB color scale. Then the AB predicted channels
-are joined with the L channel giving the colorized image. A test of the whole model can be found in notebook (EDSR-DQE). 
+are joined with the L channel giving the colorized image. 
+
+A test of the whole model can be seen below.
+
+<img src="/imgs/1.JPG">
+
+More Tests of the whole model can be found in notebook (EDSR-DQE). 
 
 The Super resolution part works pretty well, but the colorization still needs more work. 
 
